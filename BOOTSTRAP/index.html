@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sesson/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="	https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <!-------------------------------- navbar ----------------------------------------------->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./sesson/images/logo.png" alt="Capital Shop Logo"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse"  id="navbarNav">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Woman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Baby Collection</a>
+          </li>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"  role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+          <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Login</a>
+          <a class="dropdown-item" href="#">Cart</a>
+          <a class="dropdown-item" href="#">Product Collection</a>
+          <a class="dropdown-item" href="#">Product CheckOut</a>
+          </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+<!------------------------------------- carousel slider ------------------------------------>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> 
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./sesson/images/h1_hero2.jpg.webp" class="d-block w-100 img-fluid" alt="...">
+      <div class="carousel-caption" class="animated fadeIn" style="animation-delay: .2s;">
+          <small class="animated fadeInUp" style="animation-delay: .3s;">FASHION SALE </small>
+          <h3 class="animated fadeInUp" style="animation-delay: .3s;">Beautiful Place In The Best Word </h3>
+          <p class="animated fadeInDown" style="animation-delay: .3s;">1234 Lorem Ave, California, America</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./sesson/images/h1_hero1.jpg.webp" class="d-block w-100 img-fluid" alt="...">
+      <div class="carousel-caption" class="animated fadeIn" style="animation-delay: .2s;">
+              <small class="animated fadeInUp" style="animation-delay: .3s;">Welcome to Tolmatol </small>
+              <h3 class="animated fadeInUp" style="animation-delay: .3s;">Beautiful House In The Best Place </h3>
+              <p class="animated fadeInDown" style="animation-delay: .3s;">1234 Lorem Ave, New Delhi, INDIA</p>
+            </div>
+    </div>
+     
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> 
+
+
+<!--------------------------------------------- categories images-------------------------------------->
+<section>
+  <div class="sec-title text-center pb-3">
+    <h1>Latest News of  fashion</h1>
+</div>
+<div class="container">
+  <div class="img-Hover img1">
+     <img src="./sesson/images/items1.jpg.webp" alt="Photo 1">
+     <div class="img_overlay">
+        <a href="#"><i class="fa fa-link"></i></a>
+     </div>
+  </div>
+  <div class="img-Hover img2">
+     <img src="./sesson/images/items2.jpg.webp" alt="Photo 2">
+     <div class="img_overlay">
+        <a href="#"><i class="fa fa-link"></i></a>
+     </div>
+  </div>
+  <div class="img-Hover img3">
+     <img src="./sesson/images/items3.jpg.webp" alt="Photo 3">
+     <div class="img_overlay">
+        <a href="#"><i class="fa fa-link"></i></a>
+     </div>
+  </div>
+</div>
+</section>
+<!------------------------------------ categories snippets image over zoom ------------------------------>
+<section class="blog-section container-fluid">
+  <div class="auto-container">
+      <div class="sec-title text-center pb-3">
+          <h1>Trending This Week</h1>
+      </div>
+
+      <div class="row">
+          <!-- Blog block --> 
+          <div class="blog col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" >
+              <div class="inner-box">
+                  <div class="image-box">
+                      <figure class="image"><a href="#"><img src="./sesson/images/latest1.jpg.webp" alt=""></a></figure>
+                  </div>
+                  <div class="lower-content">
+                      <div class="info-box">
+                          <span class="date">Our Popular Products</span>
+                          <span class="author">Cashmere Tank + Bag</span>
+                      </div>
+                      <h4><a href="#">Apa itu Lorem Ipsum?</a></h4>
+                      <div class="text">Lorem Ipsum adalah text contoh digunakan didalam industri pencetakan dan typesetting. </div>
+                      <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span>Read More</a></div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Blog block --> 
+          <div class="blog col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="400ms" >
+              <div class="inner-box">
+                  <div class="image-box">
+                      <figure class="image"><a href="#"><img src="./sesson/images/latest2.jpg.webp" alt=""></a></figure>
+                  </div>
+                  <div class="lower-content">
+                      <div class="info-box">
+                          <span class="date">Summer Collections</span>
+                          <span class="author">Cashmere Tank + Bag</span>
+                      </div>
+                      <h4><a href="#">Mengapa kami menggunakannya?</a></h4>
+                      <div class="text">Adalah menjadi satu fakta bahawa pembaca akan terganggu oleh text yang boleh difahami</div>
+                      <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span>Read More</a></div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Blog block --> 
+          <div class="blog col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="800ms">
+              <div class="inner-box">
+                  <div class="image-box">
+                      <figure class="image"><a href="#"><img src="./sesson/images/latest4.jpg.webp" alt=""></a></figure>
+                  </div>
+                  <div class="lower-content">
+                      <div class="info-box">
+                          <span class="date">Winter Collections</span>
+                          <span class="author">Cashmere Tank + Bag</span>
+                      </div>
+                      <h4><a href="#">Dari mana dapat saya memperolehi text ini?</a></h4>
+                      <div class="text">Ada banyak versi dari mukasurat-mukasurat Lorem Ipsum yang sedia ada, tetapi </div>
+                      <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span>Read More</a></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!------------------------------------ Testimonial Carousel --------------------------------------->
+<div class="sec-title text-center pb-3">
+  <h1>Customer Testimonial</h1>
+</div>
+<div class="team-area mt-3">
+  <div class="container"> 
+      <div class="row mt-50">
+          <div class="col-lg-4 col-sm-6">
+              <div class="team-single wow zoomIn" data-wow-delay=".3s">
+                  <div class="team-thumb">
+                      <img src="./sesson/images/1.jpg" alt="" />
+                      <div class="social-icons style-2">
+                          <a href="#" class="fa fa-twitter"></a>
+                          <a href="#" class="fa fa-instagram"></a>
+                          <a href="#" class="fa fa-facebook"></a>
+                      </div>
+                  </div>
+                  <div class="team-bio">
+                      <h4>Vishwa</h4>
+                      <h5>SEO Expert</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="team-single wow zoomIn" data-wow-delay=".4s">
+                  <div class="team-thumb">
+                      <img src="./sesson/images/2.jpg" alt="" />
+                      <div class="social-icons style-2">
+                          <a href="#" class="fa fa-twitter"></a>
+                          <a href="#" class="fa fa-instagram"></a>
+                          <a href="#" class="fa fa-facebook"></a>
+                      </div>
+                  </div>
+                  <div class="team-bio">
+                      <h4>Patel </h4>
+                      <h5>Marketing Expert</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="team-single wow zoomIn" data-wow-delay=".5s">
+                  <div class="team-thumb">
+                      <img src="./sesson/images/3.jpg" alt="" />
+                      <div class="social-icons style-2">
+                          <a href="#" class="fa fa-twitter"></a>
+                          <a href="#" class="fa fa-instagram"></a>
+                          <a href="#" class="fa fa-facebook"></a>
+                      </div>
+                  </div>
+                  <div class="team-bio">
+                      <h4>V. Smith</h4>
+                      <h5>Graphic Designer</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="team-single wow zoomIn" data-wow-delay=".6s">
+                  <div class="team-thumb">
+                      <img src="./sesson/images/4.jpg" alt="" />
+                      <div class="social-icons style-2">
+                          <a href="#" class="fa fa-twitter"></a>
+                          <a href="#" class="fa fa-instagram"></a>
+                          <a href="#" class="fa fa-facebook"></a>
+                      </div>
+                  </div>
+                  <div class="team-bio">
+                      <h4>Jonthon</h4>
+                      <h5>SEO Expert</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="team-single wow zoomIn" data-wow-delay=".7s">
+                  <div class="team-thumb">
+                      <img src="./sesson/images/5.jpg" alt="" />
+                      <div class="social-icons style-2">
+                          <a href="#" class="fa fa-twitter"></a>
+                          <a href="#" class="fa fa-instagram"></a>
+                          <a href="#" class="fa fa-facebook"></a>
+                      </div>
+                  </div>
+                  <div class="team-bio">
+                      <h4>Alliy</h4>
+                      <h5>Marketing Expert</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="team-single wow zoomIn" data-wow-delay=".8s">
+                  <div class="team-thumb">
+                      <img src="./sesson/images/6.jpg" alt="" />
+                      <div class="social-icons style-2">
+                          <a href="#" class="fa fa-twitter"></a>
+                          <a href="#" class="fa fa-instagram"></a>
+                          <a href="#" class="fa fa-facebook"></a>
+                      </div>
+                  </div>
+                  <div class="team-bio">
+                      <h4>Cimon</h4>
+                      <h5>Graphic Designer</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- team end -->
+
+
+<!------------------------------------------- Portfolio ---------------------------------------------------->
+<div class="sec-title text-center pb-3">
+  <h1>You May Like</h1>
+</div>
+<div class="container-fluid"> 
+  <div class="portfolio-grid">
+          <div class="row">
+              <div class="col-lg-4 col-md-6 portfolio-item">
+                  <div class="portfolio-img"><img src="./sesson/images/latest5.jpg.webp" class="img-responsive" alt=""></div>
+                  <div class="portfolio-data">
+                      <h4><a href="#">Sunscreen brand</a></h4>
+                      <p class="meta">Web design + Branding</p>
+                      <div class="portfolio-attr"> 
+                          <a href="#"><button class="btn btn-warning viewDetails">view details</button></a> 
+
+                      </div>                                              
+                  </div>
+              </div>
+               <div class="col-lg-4 col-md-6 portfolio-item">
+                  <div class="portfolio-img"><img src="./sesson/images/latest6.jpg.webp" class="img-responsive" alt=""></div>
+                  <div class="portfolio-data">
+                      <h4><a href="#">Lotion brand</a></h4>
+                      <p class="meta">Web design + Branding</p>
+                      <div class="portfolio-attr"> 
+                          <a href="#"><button class="btn btn-warning viewDetails">view details</button></a> 
+
+                      </div>                                              
+                  </div>
+              </div>
+               <div class="col-lg-4 col-md-6 portfolio-item">
+                  <div class="portfolio-img"><img src="./sesson/images/latest7.jpg.webp" class="img-responsive" alt=""></div>
+                  <div class="portfolio-data">
+                      <h4><a href="#">Leather collection</a></h4>
+                      <p class="meta">Web design + Branding</p>
+                      <div class="portfolio-attr"> 
+                          <a href="#"><button class="btn btn-warning viewDetails">view details</button></a> 
+
+                      </div>                                              
+                  </div>
+              </div>
+               <div class="col-lg-4 col-md-6 portfolio-item">
+                  <div class="portfolio-img"><img src="./sesson/images/latest8.jpg.webp" class="img-responsive" alt=""></div>
+                  <div class="portfolio-data">
+                      <h4><a href="#">Smart watch collection</a></h4>
+                      <p class="meta">Web design + Branding</p>
+                      <div class="portfolio-attr"> 
+                          <a href="#"><button class="btn btn-warning viewDetails">view details</button></a> 
+
+                      </div>                                              
+                  </div>
+              </div> 
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                  <div class="portfolio-img"><img src="./sesson/images/index2-slide-1.jpg" class="img-responsive" alt=""></div>
+                  <div class="portfolio-data">
+                      <h4><a href="#">Accessory collection</a></h4>
+                      <p class="meta">Web design + Branding</p>
+                      <div class="portfolio-attr"> 
+                          <a href="#"><button class="btn btn-warning viewDetails">view details</button></a> 
+
+                      </div>                                              
+                  </div>
+              </div> 
+               <div class="col-lg-4 col-md-6 portfolio-item">
+                  <div class="portfolio-img"><img src="./sesson/images/look-1-2.jpg" class="img-responsive" alt=""></div>
+                  <div class="portfolio-data">
+                      <h4><a href="#">Collection of summer clothes</a></h4>
+                      <p class="meta">Web design + Branding</p>
+                      <div class="portfolio-attr"> 
+                          <a href="#"><button class="btn btn-warning viewDetails">view details</button></a> 
+
+                      </div>                                              
+                  </div>
+              </div>
+          </div>
+        </div>
+        </div>
+        <!-------------------------------------------- our service carousel ------------------------------------>
+        <div class="sec-title text-center pb-3">
+          <h1>Latest News</h1>
+        </div>
+        <div class="container">
+          <div class="row categ-List">
+              <div class="col-lg-4 col-md-6">
+                  <div class="categ">
+                      <img src="./sesson/images/pexels-photo-845434.jpeg" alt="">
+                      <div class="info">
+                          <h6>New in:</h6>
+                          <h4>Clothing</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <div class="categ">
+                      <img src="./sesson/images/pexels-photo-1126993.webp" alt="">
+                      <div class="info">
+                              <h6>Clearance sales:</h6>
+                              <h4>Clothing <a href="">20% Off</a></h4>
+                          </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 offseet-xl-0">
+                  <div class="categ">
+                      <img src="./sesson/images/pexels-photo-794064.webp" alt="">
+                      <div class="info">
+                              <h6>Upcoming sales:</h6>
+                              <h4>Get up to <a href="">70% Off</a></h4>
+                          </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--------------------------------------- shopping collection -------------------------------------->
+      <div class="sec-title text-center pb-3">
+        <h1>Summery of our services</h1>
+      </div>
+      <section class="category-products-area pb-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="single-category-box">
+                        <img src="./sesson/images/img-1.jpg" alt="">
+
+                        <div class="category-content">
+                            <h3>Our Popular Products</h3>
+                            <a href="#" class="btn btn-outline-light">View More</a>
+                        </div>
+
+                        <a href="#" class="link-btn"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-category-box">
+                                <img src="./sesson/images/img-2.jpg" alt="image">
+    
+                                <div class="category-content">
+                                    <h3>Winter Collections</h3>
+                                </div>
+    
+                                <a href="#" class="link-btn"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-category-box">
+                                <img src="./sesson/images/img-3.jpg" alt="image">
+    
+                                <div class="category-content">
+                                    <h3>Summer Collections</h3>
+                                </div>
+    
+                                <a href="#" class="link-btn"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12">
+                            <div class="single-category-box">
+                                <img src="./sesson/images/img-4.jpg" alt="image">
+    
+                                <div class="category-content">
+                                    <h3>Up to 75% OFF Spring Sale!</h3>
+                                </div>
+    
+                                <a href="#" class="link-btn"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- -------------------------------------------footer --------------------------------------------------->
+      <footer>
+        <div class="footer-top">
+          <div class="container-fluid">
+            <div class="container">
+              <div class="row">
+                <div class="col col-12 col-md-5 col-lg-5">
+                  <div class="logo-wrpr">
+                    <div class="footer-logo">
+                      <a href="index.html">
+                        <img src="./sesson/images/logo.png" alt="Footer Logo">
+                      </a>
+                    </div>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elituo sed do eiusmod tempor incididunt ut labore et dolore de magna aliqua. Ut enim ad minim veniam quis.
+                    </p>
+                    <div class="footer-mail">
+                      <a href="mailto:info@tomatol.com">
+                        <i class="fa fa-envelope"></i> info@tomatol.com
+                      </a>
+                    </div>
+                    <div class="footer-call">
+                      <a href="tel:+123456123">
+                        <i class="fa fa-phone"></i> +1 123 456 1234
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-2 col-lg-2">
+                  <div class="useful-links">
+                    <h6 class="footer-title">Links</h6>
+                    <ul>
+                      <li><a href="#">OFFERS</a></li>
+                      <li><a href="#">PRODUCTS</a></li>
+                      <li><a href="#">CATALOG</a></li>
+                      <li><a href="#">SERVICES</a></li>
+                      <li><a href="#">ABOUT</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-2 col-lg-2">
+                  <div class="useful-links">
+                    <h6 class="footer-title">Need Help?</h6>
+                    <ul>
+                      <li><a href="#">Getting Started</a></li>
+                      <li><a href="#">FAQ'S</a></li>
+                      <li><a href="#">contact us</a></li>
+                      <li><a href="#">press</a></li>
+                      <li><a href="#">terms and Conditions</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-3 col-lg-3">
+                  <div class="footer-form">
+                    <h6 class="footer-title">Subscribe</h6>
+                    <form>
+                      <label class="form-label" for="subscribe-mail">Subscribe to our newsletter &amp; get important updates and offers.</label>
+                      <input type="email" class="form-control" id="subscribe-mail" placeholder="Your Email Here...">
+                      <button type="submit" class="btn btn-primary mt-3">Subscribe</button>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- carousel slider -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
